@@ -1,5 +1,5 @@
-var btn = document.querySelector('#show');
-var section = document.querySelector('.teste')
+var btn = document.querySelector('#show-btn');
+var section = document.querySelector('.show-carrinho')
 var container = document.querySelector('.container');
 
 btn.addEventListener('click', function(){
@@ -13,7 +13,7 @@ btn.addEventListener('click', function(){
 
 
 var btn = document.querySelector('.hide');
-var section = document.querySelector('.teste')
+var section = document.querySelector('.show-carrinho')
 var container = document.querySelector('.container');
 
 btn.addEventListener('click', function(){

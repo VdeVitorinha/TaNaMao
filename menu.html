@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/icon.png">
@@ -23,7 +23,7 @@
             <div class="line2"></div>
             <div class="line3"></div>
           </div>
-            <div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16">
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-basket" viewBox="0 0 16 16" id="show-btn">
               <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.217L5.07 1.243a.5.5 0 0 1 .686-.172zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9H2zM1 7v1h14V7H1zm3 3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
             </svg></div>
             <div><a href="valida.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
@@ -41,87 +41,50 @@
           </ul>
         </nav>
 </header> 
-btn-layout     
 
-      <div class="container" class="container_menu">
-          <h1 class="titulo">Cardápio</h1>
-          
-<div id="espeto" >
-  <h2>Espetos</h2>
-  <hr>
+<aside class="show-carrinho">
+  <div id="area-prod">
+    <button class="hide"><i class="bi bi-x"></i></button>
+  </div>
+  <section>
+    <div class="ped-carrinho">
+      <h1>Pedido de churrasco X</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque quo deleniti, consequuntur voluptatum corporis odio eaque ea esse natus quaerat assumenda, tempora obcaecati neque facere sunt tenetur unde iste!</p>
+      <button class="btn-layout">Remover</button>
+    </div>
 
-      <div class="produtos" class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://static.itdg.com.br/images/1200-630/1cf961c72117c9bafa6b61e5c5301df1/espetinho-de-churrasco.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
+    <div class="ped-carrinho">
+      <h1>Pedido de churrasco X</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque quo deleniti, consequuntur voluptatum corporis odio eaque ea esse natus quaerat assumenda, tempora obcaecati neque facere sunt tenetur unde iste!</p>
+      <button class="btn-layout">Remover</button>
+    </div>
 
-            <div class="col-md-8">
-              <div class="card-body">
-                <!-- <h5 class="card-title">Card title</h5> -->
-                <h3 class="card-text">Churrasco no espeto</h3>
+    <div class="ped-carrinho">
+      <h1>Pedido de churrasco X</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque quo deleniti, consequuntur voluptatum corporis odio eaque ea esse natus quaerat assumenda, tempora obcaecati neque facere sunt tenetur unde iste!</p>
+      <button class="btn-layout">Remover</button>
+    </div>
 
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          Complementos:
-                        </button>
-                      </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
-                          </div>
-                        </div>
-                    </div>
-                  </div>
-                 <button type="button" class="btn-layout" id="show">+Adicionar Pedido</button>
-              </div>
-            </div>
-        </div>
-      </div>
-    
-      <div class="produtos" class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://static.itdg.com.br/images/1200-630/1cf961c72117c9bafa6b61e5c5301df1/espetinho-de-churrasco.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
+    <div class="ped-carrinho">
+      <h1>Pedido de churrasco X</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque quo deleniti, consequuntur voluptatum corporis odio eaque ea esse natus quaerat assumenda, tempora obcaecati neque facere sunt tenetur unde iste!</p>
+      <button class="btn-layout">Remover</button>
+    </div>
 
-            <div class="col-md-8">
-              <div class="card-body">
-                <!-- <h5 class="card-title">Card title</h5> -->
-                <h3 class="card-text">Churrasco no espeto</h3>
+    <div class="ped-carrinho">
+      <h1>Pedido de churrasco X</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cumque quo deleniti, consequuntur voluptatum corporis odio eaque ea esse natus quaerat assumenda, tempora obcaecati neque facere sunt tenetur unde iste!</p>
+      <button class="btn-layout">Remover</button>
+    </div>
+  </section>
+</aside>
 
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          Complementos:
-                        </button>
-                      </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
-                            <div class="form-check-input"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
-                          </div>
-                        </div>
-                    </div>
-                  </div>
-
-                <button type="button" class="btn-layout" id="show">+Adicionar Pedido</button>
-              </div>
-            </div>
-        </div>
-      </div>
-  
-</div> 
-
-<div id="churrasco" class="sessao-item">
-  <h2>Churrascos</h2>
-  <hr>
+<div class="container" class="container_menu">
+  <h1 class="titulo">Cardápio</h1>          
+    <div id="espeto" >
+      
+      <h2>Espetos</h2>
+      <hr>
 
       <div class="produtos" class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
@@ -133,69 +96,30 @@ btn-layout
               <div class="card-body">
                 <!-- <h5 class="card-title">Card title</h5> -->
                 <h3 class="card-text">Churrasco no espeto</h3>
-
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          Complementos:
-                        </button>
-                      </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
-                          </div>
-                        </div>
-                    </div>
+                  <div class="valor">
+                    <h3><b>R$:12,90</b></h3>
                   </div>
-
-                <button type="button" class="btn-layout" id="show">+Adicionar Pedido</button>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Complementos:
+                          </button>
+                        </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                <button type="button" class="btn-layout">+Adicionar Pedido</button>
               </div>
             </div>
         </div>
       </div>
-    
-      <div class="produtos" class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://static.itdg.com.br/images/1200-630/1cf961c72117c9bafa6b61e5c5301df1/espetinho-de-churrasco.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-
-            <div class="col-md-8">
-              <div class="card-body">
-                <!-- <h5 class="card-title">Card title</h5> -->
-                <h3 class="card-text">Churrasco no espeto</h3>
-
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          Complementos:
-                        </button>
-                      </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
-                          </div>
-                        </div>
-                    </div>
-                  </div>
-
-                <button type="button" class="btn-layout" id="show">+Adicionar Pedido</button>
-              </div>
-            </div>
-        </div>
-      </div>
-  
-</div> 
-
-<div id="paes" class="sessao-item">
-  <h2>Pães</h2>
-  <hr>
 
       <div class="produtos" class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
@@ -207,30 +131,37 @@ btn-layout
               <div class="card-body">
                 <!-- <h5 class="card-title">Card title</h5> -->
                 <h3 class="card-text">Churrasco no espeto</h3>
-
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          Complementos:
-                        </button>
-                      </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
-                          </div>
-                        </div>
-                    </div>
+                  <div class="valor">
+                    <h3><b>R$:12,90</b></h3>
                   </div>
-
-                <button type="button" class="btn-layout" id="show">+Adicionar Pedido</button>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Complementos:
+                          </button>
+                        </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                <button type="button" class="btn-layout">+Adicionar Pedido</button>
               </div>
             </div>
         </div>
       </div>
-    
+      
+    </div> 
+
+    <div id="churrasco" class="sessao-item">
+      <h2>Churrascos</h2>
+      <hr>
+
       <div class="produtos" class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
@@ -241,117 +172,238 @@ btn-layout
               <div class="card-body">
                 <!-- <h5 class="card-title">Card title</h5> -->
                 <h3 class="card-text">Churrasco no espeto</h3>
-
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          Complementos:
-                        </button>
-                      </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
-                          </div>
-                        </div>
-                    </div>
+                  <div class="valor">
+                    <h3><b>R$:12,90</b></h3>
                   </div>
-
-                <button type="button" class="btn-layout" id="show">+Adicionar Pedido</button>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Complementos:
+                          </button>
+                        </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                <button type="button" class="btn-layout">+Adicionar Pedido</button>
               </div>
             </div>
         </div>
       </div>
-  
+
+      <div class="produtos" class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://static.itdg.com.br/images/1200-630/1cf961c72117c9bafa6b61e5c5301df1/espetinho-de-churrasco.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+
+            <div class="col-md-8">
+              <div class="card-body">
+                <!-- <h5 class="card-title">Card title</h5> -->
+                <h3 class="card-text">Churrasco no espeto</h3>
+                  <div class="valor">
+                    <h3><b>R$:12,90</b></h3>
+                  </div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Complementos:
+                          </button>
+                        </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                <button type="button" class="btn-layout">+Adicionar Pedido</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+    </div> 
+
+    <div id="paes" class="sessao-item">
+      <h2>Pães</h2>
+      <hr>
+
+      <div class="produtos" class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://static.itdg.com.br/images/1200-630/1cf961c72117c9bafa6b61e5c5301df1/espetinho-de-churrasco.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+
+            <div class="col-md-8">
+              <div class="card-body">
+                <!-- <h5 class="card-title">Card title</h5> -->
+                <h3 class="card-text">Churrasco no espeto</h3>
+                  <div class="valor">
+                    <h3><b>R$:12,90</b></h3>
+                  </div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Complementos:
+                          </button>
+                        </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                <button type="button" class="btn-layout">+Adicionar Pedido</button>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="produtos" class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://static.itdg.com.br/images/1200-630/1cf961c72117c9bafa6b61e5c5301df1/espetinho-de-churrasco.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+
+            <div class="col-md-8">
+              <div class="card-body">
+                <!-- <h5 class="card-title">Card title</h5> -->
+                <h3 class="card-text">Churrasco no espeto</h3>
+                  <div class="valor">
+                    <h3><b>R$:12,90</b></h3>
+                  </div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Complementos:
+                          </button>
+                        </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                <button type="button" class="btn-layout">+Adicionar Pedido</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div id="bebidas" class="sessao-item">
+      <h2>Bebidas</h2>
+      <hr>
+
+      <div class="produtos" class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://static.itdg.com.br/images/1200-630/1cf961c72117c9bafa6b61e5c5301df1/espetinho-de-churrasco.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+
+            <div class="col-md-8">
+              <div class="card-body">
+                <!-- <h5 class="card-title">Card title</h5> -->
+                <h3 class="card-text">Churrasco no espeto</h3>
+                  <div class="valor">
+                    <h3><b>R$:12,90</b></h3>
+                  </div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Complementos:
+                          </button>
+                        </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                <button type="button" class="btn-layout">+Adicionar Pedido</button>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="produtos" class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://static.itdg.com.br/images/1200-630/1cf961c72117c9bafa6b61e5c5301df1/espetinho-de-churrasco.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+
+            <div class="col-md-8">
+              <div class="card-body">
+                <!-- <h5 class="card-title">Card title</h5> -->
+                <h3 class="card-text">Churrasco no espeto</h3>
+                  <div class="valor">
+                    <h3><b>R$:12,90</b></h3>
+                  </div>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Complementos:
+                          </button>
+                        </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
+                              <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                <button type="button" class="btn-layout">+Adicionar Pedido</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      
+    </div> 
+<!-- Final do container -->
 </div>
 
-<div id="bebidas" class="sessao-item">
-  <h2>Bebidas</h2>
-  <hr>
-
-      <div class="produtos" class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://static.itdg.com.br/images/1200-630/1cf961c72117c9bafa6b61e5c5301df1/espetinho-de-churrasco.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-
-            <div class="col-md-8">
-              <div class="card-body">
-                <!-- <h5 class="card-title">Card title</h5> -->
-                <h3 class="card-text">Churrasco no espeto</h3>
-
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          Complementos:
-                        </button>
-                      </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
-                          </div>
-                        </div>
-                    </div>
-                  </div>
-
-                <button type="button" class="btn-layout" id="show">+Adicionar Pedido</button>
-              </div>
-            </div>
-        </div>
-      </div>
-    
-      <div class="produtos" class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="https://static.itdg.com.br/images/1200-630/1cf961c72117c9bafa6b61e5c5301df1/espetinho-de-churrasco.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-
-            <div class="col-md-8">
-              <div class="card-body">
-                <!-- <h5 class="card-title">Card title</h5> -->
-                <h3 class="card-text">Churrasco no espeto</h3>
-
-                  <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          Complementos:
-                        </button>
-                      </h2>
-                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                          <div class="accordion-body">
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Farofa</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Vinagrete</div>
-                            <div class="comp"><input type="checkbox" name="Farofa" id="" checked> Molho</div>
-                          </div>
-                        </div>
-                    </div>
-                  </div>
-
-                <button type="button" class="btn-layout" id="show">+Adicionar Pedido</button>
-              </div>
-            </div>
-        </div>
-      </div>
-  
-</div> 
-
-<!-- Final do container -->
-      </div>
-
-   
 
 
 
+
+
+
+
+
+
+
+      
 <div class="footer-posicao">
   <div class="footer-frase">DESENVOLVIDO POR
 </div>  
-<img src="img/logo_VixBay-LogoMarca.png" alt="" width="110px" /></div>
+<img src="img/logo_VixBay-LogoMarca.png" alt="" width="110px" />
+</div>
 
           <footer class="footer-distributed">
             <div class="footer-right">
@@ -383,7 +435,6 @@ btn-layout
       
               <p>Todos os direitos a Victorys Bay 🐢</p>
             </div>
-      
           </footer>
           
           

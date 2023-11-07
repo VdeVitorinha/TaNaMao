@@ -9,7 +9,8 @@ body{
 }
 
 header{
-  background: rgb(117, 117, 117);
+  background: #ff0000 /*rgb(117, 117, 117)*/; 
+  width: 100%;
   position: fixed;
   top: 0;
 }
@@ -26,6 +27,7 @@ header{
     font-size: 50px;
     letter-spacing: 3px;
     margin:50px;
+    margin-top:110px;
     }
   h5{
     color: #ffffff;
@@ -299,6 +301,13 @@ nav {
 }
 
 /* Page de validação */
+
+.container_vld{
+  background-image: url(https://i.ibb.co/48w2qJz/background-tnm.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 .titulo-valida{
   margin: 0;
   margin-bottom: 50px;
@@ -312,6 +321,13 @@ nav {
 .btn-valida{
   margin-top: 20px;
   margin-bottom: 80px;
+}
+
+.valor{
+  align-items: baseline;
+  justify-content: center;
+  display: flex;
+  color: #ff0000;
 }
 
 /* Page relatório */
@@ -357,10 +373,27 @@ nav {
   margin: 500px;
 }
 
- 
+/* page Forma Pagamento */
+.container_pag{
+  background: #ffffff;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  display: grid;
+}
 
-
-
+.clip_copy{
+  background-color: #000;
+  font: normal 16px sans-serif;
+  letter-spacing:1vw;
+  font-size:4vw;
+  color: #ffffff;
+  padding:  4px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  display: none;
+}
 
 
 
@@ -383,3 +416,61 @@ nav {
   background-color: #000000;
   border-color: #000000;
 } */
+
+
+
+
+
+
+
+
+.show-carrinho{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  text-align: center;
+  border: #000 solid 1px;
+  display: none;
+  top: 15vw;
+  overflow-y: scroll;
+}
+#show-btn:hover {
+  color: #ff0000;
+  transition: 0.3s;
+} 
+
+.hide{
+  background: #000;
+  color: #ffffff;
+  border-radius: 50px;
+  border: none;
+  width: 35px;
+  height: 35px;
+  margin: 3px;
+  font-size: xx-large;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.hide:hover{
+  background: #ff0000;
+  border-radius: 50px;
+  color: #ffffff;
+}
+
+#area-prod{
+  border-bottom: #000 solid 1px;
+  align-items: end;
+  justify-content: end;
+  display: grid;
+}
+
+.ped-carrinho{
+padding: 5px;
+margin-bottom: 65px;
+border: #000 solid 1px;
+}
+
+
